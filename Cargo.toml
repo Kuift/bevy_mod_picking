@@ -12,7 +12,7 @@ categories = ["game-engines", "rendering"]
 [dependencies]
 #bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", version = "0.5", default-features = false, features = ["render"] }
 bevy = { git = "https://github.com/bevyengine/bevy", rev = "6a8a8c9d21f32e0e46623db9438813b009f9e014",default-features = false, features = ["render"] }
-bevy_mod_raycast = { git = "https://github.com/Kuift/bevy_mod_raycast", rev = "edc771ccb82ce3fe46b7e469a53f2d625820772a" }
+bevy_mod_raycast = { git = "https://github.com/Kuift/bevy_mod_raycast", rev = "dde7e3a023fd299fa2d5c1298c5b8ac52e439ccd" }
 
 [dev-dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy", rev = "6a8a8c9d21f32e0e46623db9438813b009f9e014", default-features = false, features = [
